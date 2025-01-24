@@ -60,14 +60,14 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 &kp ESC  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp GB_POUND \
 &kp GB_MINUS  &kp A  K11  K12  K13  K14       K15  K16  K17  K18  &kp SQT  &kp GB_UNDER \
 &kp GB_BACKSLASH  K20  K21  K22  U_MT(LGUI, V)  K24       K25  U_MT(LGUI, M)  K27  K28  K29  &kp GB_EQUAL \
-               U_LT(LSHFT, ESC)  K33  U_LT(U_MEDIA, TAB)       K35  K36  K37
+               U_LT(U_MEDIA, ESC)  K33  U_LT(U_MOUSE, TAB)       K35  K36  K37
 
 // // This one for changing the base 36 keys
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     &kp SQT, \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             U_MT(LGUI, V),             &kp B,             &kp N,             U_MT(LGUI, M),             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH), \
-U_NP,              U_NP,              U_LT(LSHFT, ESC),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 //// NUM ////
 // #define MIRYOKU_LAYERMAPPING_NUM( \
