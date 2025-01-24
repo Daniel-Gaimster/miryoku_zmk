@@ -12,6 +12,7 @@
 / { \
   macros { \
     name: name { \
+      label = U_STRINGIFY(ZM_ ## name); \
       compatible = "zmk,behavior-macro"; \
       #binding-cells = <0>; \
       __VA_ARGS__ \
@@ -23,7 +24,11 @@
 #define U_NA &none // present but not available for use
 #define U_NU &none // available but not used
 
-#define U_TAPPING_TERM 200
+
+////// Customised to instead be defined in the custom_config file
+// #define U_TAPPING_TERM 200
+//////
+
 
 #include "miryoku_clipboard.h"
 
