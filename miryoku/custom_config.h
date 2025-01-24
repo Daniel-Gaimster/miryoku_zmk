@@ -144,17 +144,17 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 // U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 
-// //// MEDIA ////
-// #define MIRYOKU_LAYERMAPPING_MEDIA( \
-//      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-//      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-//      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-//      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-// ) \
-// XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-// XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-// XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-//                K32  K33  K34       K35  K36  K37
+//// MEDIA ////
+#define MIRYOKU_LAYERMAPPING_MEDIA( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &studio_unlock \
+XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
+               K32  K33  K34       K35  K36  K37
 
 // #define MIRYOKU_ALTERNATIVES_MEDIA_FLIP \
 // U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         U_RGB_TOG,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
